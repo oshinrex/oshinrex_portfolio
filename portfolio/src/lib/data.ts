@@ -2,7 +2,7 @@
 // URLs — kept in one place so they're easy to find and replace.
 // ---------------------------------------------------------------------------
 
-export const RESUME_URL = "/Oshin_Rex_Resume.pdf";
+export const RESUME_URL = "/Oshin_Rex_2026_Resume.pdf";
 
 export const CONTACT = {
   email: "omr6@cornell.edu",
