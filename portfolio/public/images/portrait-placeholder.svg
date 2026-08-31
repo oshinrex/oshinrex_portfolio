@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Portrait placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2f2f0" />
+      <stop offset="1" stop-color="#e6e6e2" />
+    </linearGradient>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#57735a" opacity="0.5" />
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#57735a" stop-opacity="0" />
+      <stop offset="0.55" stop-color="#57735a" stop-opacity="0.9" />
+      <stop offset="1" stop-color="#57735a" stop-opacity="1" />
+    </linearGradient>
+    <mask id="silhouette-mask">
+      <rect width="800" height="1000" fill="black" />
+      <path d="M400 190c-95 0-158 78-158 190 0 84 34 150 34 150s-140 46-172 130c-24 62-30 130-30 200v140h652v-140c0-70-6-138-30-200-32-84-172-130-172-130s34-66 34-150c0-112-63-190-158-190z" fill="url(#fade)" />
+    </mask>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#bg)" />
+  <rect width="800" height="1000" fill="url(#dots)" mask="url(#silhouette-mask)" />
+
+  <path d="M400 190c-95 0-158 78-158 190 0 84 34 150 34 150s-140 46-172 130c-24 62-30 130-30 200v140h652v-140c0-70-6-138-30-200-32-84-172-130-172-130s34-66 34-150c0-112-63-190-158-190z"
+        fill="none" stroke="#3a3a38" stroke-width="2.5" opacity="0.8" />
+
+  <line x1="60" y1="60" x2="60" y2="140" stroke="#57735a" stroke-width="1.5" opacity="0.7" />
+  <line x1="20" y1="100" x2="100" y2="100" stroke="#57735a" stroke-width="1.5" opacity="0.7" />
+  <line x1="740" y1="900" x2="740" y2="960" stroke="#57735a" stroke-width="1.5" opacity="0.5" />
+  <line x1="710" y1="930" x2="770" y2="930" stroke="#57735a" stroke-width="1.5" opacity="0.5" />
+</svg>
